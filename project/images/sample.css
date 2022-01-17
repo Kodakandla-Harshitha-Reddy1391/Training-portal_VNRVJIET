@@ -1,0 +1,259 @@
+body{
+       height: 100vh;
+       margin: 0;
+       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header {
+        /* background-image:linear-gradient(#000,rgba(31, 129, 190, 0.74),rgba(0, 0, 0, 0.7)),url(img/backmain.jpg);
+        background-position: center;
+        background-size: cover;*/
+        width:100%;
+        display:flex;
+        align-items:center;
+        background-color:#f1f1f1;
+        
+    }
+   /*------logo main-----*/
+
+.logo {
+    float: left;
+    position: absolute;
+    top: 27%;
+    left: 3%;
+    width: 14%;
+}
+    .c1 {
+        position: relative;
+      
+    }
+    
+    #first {
+        width: 2em;
+        position: absolute;
+        top: 3em;
+        left: 1em;
+        color: teal;
+        font-size: 0.5em;
+    }
+    
+    img {
+        width: 6em;
+        position: absolute;
+        top: -1em;
+        left: 1em;
+    }
+    
+    #fst {
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: rgb(122, 122, 122);
+        font-size: 50px;
+        padding: 5px;
+        margin: 2px 2px 30px 80px;
+    }
+    
+    
+   
+    
+    a {
+        color: teal;
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(122, 122, 122);
+    }
+    .c1{
+        background-image: linear-gradient(to right,rgb(151, 200, 245), rgb(168, 191, 214), rgb(218, 218, 218), rgb(218, 218, 218));
+    }
+    .c2.h3{
+        color: azure;
+        padding: 0px 60px;
+        font-size: 20px;
+        display: inline;
+        background-color: azure;
+    }
+    
+    .c3 {
+        text-align: center;
+        padding-bottom: 30px;
+        background-color:azure;
+    }
+    
+    h6 {
+        text-align: center;
+        font-size: 40px;
+        color: rgb(78, 78, 78);
+        letter-spacing: 5px;
+        margin: 0px 20px 20px 20px;
+    }
+    
+    .c3 h1 {
+        font-family: 'Noto Sans JP', sans-serif;
+        padding: 50px 5px 0px 5px;
+        font-size: 40px;
+        margin-bottom: 0px;
+        
+    }
+    .scrolleff {
+        font-weight: 700;
+        background-color:azure;
+        color:rgb(78, 78, 78);
+        padding: 20px;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+        line-height: 15px;
+    }
+    /*------logo main-----*/
+
+
+
+
+
+
+
+
+
+
+
+    
+    ul{
+        margin:0;
+        padding: 0;
+        overflow: hidden;
+        list-style-type:none;
+    }
+    a.link,a.visited{
+        display:block;
+        font-weight: bold;
+        color: indigo;
+        background-color: burlywood;
+        width:120px;
+        text-align: center;
+        padding: 4px;
+        text-transform: uppercase;
+    }
+    a:hover,a:active{
+        background-color: bisque;
+    }
+    li{
+        float:left;
+    }
+    li {
+      float: left;
+    }
+
+* {
+    box-sizing: border-box;
+ }
+ .backgroundImage {
+    background-image: url("C:\\Users\\reddy\\OneDrive\\Desktop\\Summer_Internship\\internship\\images\\Wallpaper.jpg");
+    /*filter: blur(10px);*/
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .transparentText {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;
+    position:absolute;
+    top: 100%;
+    left: 30%;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+ }
+
+
+
+/*--------buttons--------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1px solid #e7e9f8;
+    background-color: #e7e9f8;
+    -webkit-transition: backgroundcolor 0.2s, border 0.2s, color 0.2s;
+    transition: backgroundcolor 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit] {
+    background-color: #85959d;
+    border: 1px solid #85959d;
+}
+
+.btn-2 {
+    margin-left: 20px;
+}
+
+.detail-acm {
+    display: block;
+    width: 100%;
+    text-align: justify;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+p {
+    font-size: 90%;
+}
+
+
+/**bottom**/
+.bottom{
+    height:100vh;
+    width: 100%;
+    background-image: url("C:\Users\reddy\OneDrive\Desktop\Summer_Internship\internship\images\bottombg.png");
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing:border-box;
+    position:relative;
+}
+
+/*nav bar*/
+.navbar{
+    background-color:rgb(185, 181, 174);
+    border-radius: 20px;
+  }
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 35px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.search{
+    float: right;
+    color: white;
+    padding:  20px 200px;
+    width: 25px;
+}
+.navbar input{
+    border: 2px solid rgb(59, 55, 55);
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 129px;
+}
+.navbar li a:hover{
+    color:#85959d
+}
